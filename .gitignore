@@ -1,0 +1,8 @@
+.idea
+nodejs/node_modules
+nodejs/package.json
+java/.idea
+java/target
+java/out
+java/main.iml
+java/src/main/openPlatform.iml

@@ -1,0 +1,26 @@
+{
+    "name": "golden/golden-open-platform-sdk",
+    "description": "golden open platform sdk",
+    "type": "library",
+    "require": {
+        "ext-curl": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lf",
+            "email": "brian.liu@wetax.com.cn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gd\\": "php/src/"
+        }
+    },
+    "scripts": {
+        "example" : [
+            "@php php/examples/example.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}

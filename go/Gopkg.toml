@@ -1,0 +1,8 @@
+[prune]
+  go-tests = true
+  unused-packages = true
+
+[[constraint]]
+  name = "github.com/json-iterator/go"
+  version = "1.1.5"
+  source = "github.com/json-iterator/go"
